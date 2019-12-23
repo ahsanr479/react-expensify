@@ -1,12 +1,12 @@
 {
-  "name": "indecision-app",
+  "name": "expensify",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/ahsanr479/react-indecision-app.git",
   "author": "Ahsan-Rahim <Ahsan.Rahim@ibm.com>",
   "license": "MIT",
   "scripts": {
-    "serve": "live-server public/",
+    "server": "live-server public/",
     "build": "webpack",
     "devserver": "webpack-dev-server"
   },
@@ -25,6 +25,7 @@
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-modal": "2.2.2",
+    "react-router-dom": "^5.1.2",
     "sass-loader": "6.0.6",
     "style-loader": "0.18.2",
     "webpack": "^4.41.0",
